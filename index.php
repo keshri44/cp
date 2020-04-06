@@ -26,6 +26,7 @@
 	</header>
 
 	<?php
+	 include 'controllers/authController.php';
 	 include 'model/db_connect.php';
 	 include 'verify-user/signup.php';
 	 include 'verify-user/login.php';
